@@ -3,3 +3,13 @@
 python的学习:回顾条件与递归，有返回值的函数；学习迭代与字符串。
 迭代：重复运用代码；方式：递归、for i in range、while(本章学习)
 while 条件为真，运行循环，条件为假跳出循环，while True命题一直为真，需要借助break来跳出循环
+练习7-2：计算输入字符串
+```python
+def eval_loop():
+    while True:
+        a=input('>')
+        if a=='done':
+            break
+        print(eval(a))
+eval_loop()
+```
